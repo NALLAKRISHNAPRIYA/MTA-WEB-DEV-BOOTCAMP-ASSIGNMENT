@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>select tag</title>
+</head> 
+<body> 
+	<form>
+		<label> select your fav cricketer</label>
+
+				<select id="cricketer">
+				 <option value="Sachin Tendulkar"> 
+				<option value="Brian Lara"> 
+				<option value="Jacques Kallis"> 
+				<option value="Ricky Ponting"> 
+				<option value="Rahul Dravid"> 
+				<option value="Saurav Ganguly "> 
+				<option value="AB diVilliers"> 
+				<option value="Mahendra Singh Dhoni"> 
+				<option value="Adam Gilchrist"></option>
+	</select> 
+	</form>
+	<button onclik="submit()">submit</button><p id="result"></p>
+	<p>is your favourite cricketer</p>
+	<script>
+			function submit() {
+				var c=document.getElementById('cricketer').value;
+				document.getElementById('result').innerHTML=c;
+			} 
+	</script>
+</body> 
+</html> 
+ 
+ 

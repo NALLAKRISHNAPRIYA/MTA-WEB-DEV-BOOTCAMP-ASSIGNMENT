@@ -1,0 +1,45 @@
+<!--ASSIGNMENT6-->
+<!DOCTYPE>
+<html>
+	<head>
+		<title>ASSIGNMENT6</title>
+			<style>
+				td{
+					color:  hotpink;
+				}
+			</style>
+	</head>
+	<body>
+		<fieldset>
+			<legend>Details</legend>
+			Name: <input type="text" id="name" required /> <br/><br/>
+			Adhaar number: <input type="Adhaar number" id="Adhaar number" required /> <br/><br/>
+			Address: <input type="address" id="address" required /> <br/><br/>
+			<button onclick="readDemo()">Submit</button>		
+		</fieldset><br/><br/>
+
+		<h1>Result table</h1>
+		<table border="1">
+			<tr>
+				<th>Name</th>
+				<th>Adhaar number</th>
+				<th>Address</th>
+			</tr>
+			<tr>
+				<td id="abcd"></td>
+				<td id="1234"></td>
+				<td id="ab12"></td>
+			</tr>
+		</table>
+		<script>
+			function readData() {
+				var name=document.getElementById('name').value;
+				var Adhaar number=document.getElementById('Adhaar number').value;
+				var Address=document.getElementById('Address').value;
+				document.getElementById('abcd').innerHTML=name;
+				document.getElementByIdById('1234').innerHTML=Adhaar number;
+				document.getElementByIdById('ab12').innerHTML=Address;
+			}
+		</script>
+	</body>
+</html>

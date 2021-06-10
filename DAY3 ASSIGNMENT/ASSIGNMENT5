@@ -1,0 +1,36 @@
+!--ASSIGNMENT5-->
+<!DOCTYPE>
+<html>
+	<head>
+		<title>ASSIGNMENT5</title>
+		<style>
+					
+					a:visited{
+							color:  pink;
+							background-color:  transparent;
+							text-decoration: none;
+					}
+					a:active{
+						color: yellow;
+						backgrount-color:  transparent;
+						text-decoration:  none;
+					}
+					a:hover{
+							color: red;
+							bachground-color:  transparent;
+							text-decoration: none;
+					}
+					ul,li{
+							display: inline-block;
+					}
+			</style>
+	</head>
+	<body>
+			<nav>
+					<ul>
+							<li><a href="style the anchor tag.html">Goto style the anchor tag |<a></li>
+							<li><a href="https://www.facebook.com/talktomadblocks">Open Facebook Page |<a></li>
+					</ul>
+			</nav>
+	</body>
+</html>
