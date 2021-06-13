@@ -1,0 +1,32 @@
+<!--CONTACT FORM-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>contact form</title>
+			<style>
+				p{
+					color:  hotpink;
+				}
+			</style>
+	</head>
+	<body>
+		<form action="WEB-DEV/db_api.php" method="POST" target="_blank">
+			
+			 <label style="color: red">Enter your emailid: </label>
+			 <input type="email" id="emailid" name="emailid" /><br/><br/>
+
+			 <button onclick="readdata()">submit</button>
+			 <p id="result"></p>
+			 <script>
+			 		function readdata() {
+			 		
+			 			var email=document.getElementByIb('emailid').val;
+			 			
+			 			var datastring='Email: ' + email +
+			 			document.getElementById('result').innerHTML=result;
+			 		}	
+
+			 </script>
+		</form>
+	</body>
+</html>
